@@ -89,7 +89,7 @@ begin
 		i_B     => w_sw0,
 		o_S     => w_led0, -- no comma on LAST one
 		-- TODO:  map Cout 
-		o_Cout     => w_led1
+		o_Cout  => w_led1
 	);
 
 	-- CONCURRENT STATEMENTS ----------------------------
